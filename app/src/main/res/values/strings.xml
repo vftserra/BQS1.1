@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">QueingSystem</string>
+
+
+    <string name="schedule_prompt">Choose a country</string>
+
+    <string-array name="schedule_array">
+        <item>08:00am - 09:00am</item>
+        <item>09:00am - 10:00am</item>
+        <item>10:00am - 11:00am</item>
+    </string-array>
+</resources>

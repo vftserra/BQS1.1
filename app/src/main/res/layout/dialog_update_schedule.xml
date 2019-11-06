@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/relativeLayout2">
+
+            <ImageView
+                android:id="@+id/imageView_timeIcon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@color/colorPrimaryDark"
+                android:padding="8dp"
+                android:src="@drawable/icon_time"
+                android:tint="@color/white" />
+
+            <EditText
+                android:id="@+id/editTextTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/imageView_timeIcon"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/imageView_timeIcon"
+                android:background="@color/editTextBG"
+                android:hint="Time"
+                android:inputType="text"
+                android:paddingLeft="7dp"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

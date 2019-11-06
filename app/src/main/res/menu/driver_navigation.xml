@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/location"
+        android:title="Location"
+        android:icon="@drawable/icon_place">
+    </item>
+    <item
+        android:id="@+id/queue"
+        android:title="Queues"
+        android:icon="@drawable/icon_queue">
+    </item>
+    <item
+        android:id="@+id/sendLocation"
+        android:title="Send Location"
+        android:icon="@drawable/icon_user">
+    </item>
+    <item
+        android:id="@+id/profile"
+        android:title="Profile"
+        android:icon="@drawable/icon_user">
+    </item>
+</menu>
